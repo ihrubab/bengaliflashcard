@@ -1,16 +1,21 @@
-# flashcard_app
+# Flashcard App
 
-A new Flutter project.
+A simple Flutter Flashcard App with:
+- Excel file upload (words and meanings)
+- Multiple choice quiz
+- Spaced repetition system (smart review scheduling)
+- Daily session limit (50 cards/day)
+- Offline progress saving
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+- Upload your Excel (.xlsx) with Column A = Word and Column B = Meaning.
+- Start daily quiz sessions and review mistakes smartly.
+- App automatically saves your progress locally.
 
-A few resources to get you started if this is your first Flutter project:
+## Build Instructions
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+After cloning or downloading the project:
+```bash
+flutter pub get
+flutter build apk --release
